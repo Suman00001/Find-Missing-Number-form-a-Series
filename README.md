@@ -5,7 +5,7 @@ package in.practice;
 public class MissingNumber {
 
 	public static void main(String[] args) {
-		int []arr= {145,146,147,148,149,150,151,152,153,154,155}; //Can use any series
+		int []arr= {145,146,147,148,149,150,151,152,154,155}; //Can use any series
 		
 		int first=arr[0]; //Take the First Digit
 		int last=arr[arr.length-1]; //Take the Last digit
@@ -27,3 +27,5 @@ public class MissingNumber {
 	}
 
 }
+
+// OutPut : The Missing Number is : 153
