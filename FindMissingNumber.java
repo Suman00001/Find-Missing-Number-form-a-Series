@@ -1,3 +1,7 @@
+package in.practice;
+
+public class MissingNumber {
+
 public static void main(String[] args) {
 	int []arr= {145,146,147,148,149,150,151,152,154,155}; //Can use any series
 	
@@ -19,3 +23,6 @@ public static void main(String[] args) {
 	}
 
 }
+}
+
+// OutPut : The Missing Number is : 153
